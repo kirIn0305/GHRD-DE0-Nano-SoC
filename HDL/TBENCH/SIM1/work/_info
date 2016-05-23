@@ -1,0 +1,106 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/vacent/MY_GHRD_FPGA/HDL/SIM1
+vmod_a
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 !s110 1446655666
+!i10b 1
+!s100 e?DERN:>TXX<GAPi@ojU82
+I4CeZ<Y;CO6kSBK7QIlk651
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 mod_a_v_unit
+S1
+Z3 d/home/aurora/MY_GHRD_FPGA/HDL/TBENCH/SIM1
+Z4 w1421525641
+8../../RTL/mod_a.v
+F../../RTL/mod_a.v
+Z5 L0 42
+Z6 OV;L;10.3d;59
+r1
+!s85 0
+31
+Z7 !s108 1446655666.035259
+Z8 !s107 ./tb/tbench.v|
+Z9 !s90 +notimingchecks|-sv|-y|../../RTL|+incdir+../../RTL/+|+libext+.v+|./tb/tbench.v|
+!i113 1
+Z10 o+notimingchecks -sv +libext+.v+
+Z11 !s92 +notimingchecks -sv -y ../../RTL +incdir+../../RTL/+ +libext+.v+
+vmod_b
+R0
+R1
+!i10b 1
+!s100 oo7APc2l8RUNUkfnl:N<@1
+IZJJXl3gm6<8?dRinWfoQg2
+R2
+!s105 mod_b_v_unit
+S1
+R3
+R4
+8../../RTL/mod_b.v
+F../../RTL/mod_b.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vmod_top
+R0
+R1
+!i10b 1
+!s100 zE>MP=bg3VY8fe@]Q_cGO3
+IeMbN_WG@ZWeG;TLalSoF62
+R2
+!s105 mod_top_v_unit
+S1
+R3
+R4
+8../../RTL/mod_top.v
+F../../RTL/mod_top.v
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtest_module
+R0
+!s110 1447069093
+!i10b 1
+!s100 T>eWcDTK>5]1Gc4RiUR`30
+II?c>T]EMRLVg11HTeGR_e1
+R2
+!s105 tbench_v_unit
+S1
+d/home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM1
+w1446671782
+8./tb/tbench.v
+F./tb/tbench.v
+R5
+R6
+r1
+!s85 0
+31
+!s108 1447069093.029420
+R8
+R9
+!i113 1
+R10
+R11

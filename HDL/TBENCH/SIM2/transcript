@@ -1,0 +1,31 @@
+# Reading pref.tcl
+# vsim -gui -L altera_mf_ver tbench 
+# Start time: 00:06:20 on Nov 10,2015
+# Loading sv_std.std
+# Loading work.tbench
+# Loading work.pll
+# Loading work.pll_0002
+# ** Error: (vsim-3033) ../../RTL/ALTERA_IP/pll/pll_0002.v(78): Instantiation of 'altera_pll' failed. The design unit was not found.
+#         Region: /tbench/pll_0/pll_inst
+#         Searched libraries:
+#             /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/work
+#             /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/work
+# Error loading design
+# Loading project work
+# Compile of tbench.v was successful.
+# Compile of CamCap.v was successful.
+# Compile of top.v was successful.
+# Compile of pll.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.tbench
+# vsim 
+# Start time: 00:30:25 on Nov 10,2015
+# Loading work.tbench
+# Loading work.pll
+# Loading sv_std.std
+# Loading work.pll_0002
+# ** Error: (vsim-3033) ../../RTL/ALTERA_IP/pll/pll_0002.v(78): Instantiation of 'altera_pll' failed. The design unit was not found.
+#         Region: /tbench/pll_0/pll_inst
+#         Searched libraries:
+#             /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/work
+# Error loading design

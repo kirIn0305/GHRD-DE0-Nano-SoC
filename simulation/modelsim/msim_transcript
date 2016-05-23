@@ -1,0 +1,70 @@
+# do top_run_msim_rtl_verilog.do
+# if ![file isdirectory top_iputf_libs] {
+# 	file mkdir top_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim LE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying /Applications/altera/15.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /Applications/altera/15.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "/home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll_sim/pll.vo"
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:26:23 on Nov 09,2015
+# vlog -reportprogress 300 /home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll_sim/pll.vo 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 23:26:23 on Nov 09,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/vacent/MY_GHRD_FPGA/HDL/RTL {/home/vacent/MY_GHRD_FPGA/HDL/RTL/CamCap.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:26:23 on Nov 09,2015
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/vacent/MY_GHRD_FPGA/HDL/RTL" /home/vacent/MY_GHRD_FPGA/HDL/RTL/CamCap.v 
+# -- Compiling module camcap
+# 
+# Top level modules:
+# 	camcap
+# End time: 23:26:23 on Nov 09,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/vacent/MY_GHRD_FPGA/HDL/RTL {/home/vacent/MY_GHRD_FPGA/HDL/RTL/top.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:26:23 on Nov 09,2015
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/vacent/MY_GHRD_FPGA/HDL/RTL" /home/vacent/MY_GHRD_FPGA/HDL/RTL/top.v 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:26:23 on Nov 09,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb {/home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tbench.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:26:24 on Nov 09,2015
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb" /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tbench.v 
+# -- Compiling module tbench
+# ** Error: /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tbench.v(5): Cannot open `include file "/home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tb/clk_common.h".
+# ** Error: /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tbench.v(6): Cannot open `include file "/home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tb/instance_0.h".
+# ** Error: /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tbench.v(12): (vlog-2730) Undefined variable: 'CLK'.
+# ** Error: /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tbench.v(14): (vlog-2730) Undefined variable: 'CYCLE'.
+# End time: 23:26:24 on Nov 09,2015, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /Applications/altera/15.0/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./top_run_msim_rtl_verilog.do line 22
+# /Applications/altera/15.0/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+/home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb {/home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tbench.v}"

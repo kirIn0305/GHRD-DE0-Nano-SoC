@@ -1,0 +1,16 @@
+# Reading pref.tcl
+# Project file /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/work.mpf was not found.
+# Unable to open project.
+# Loading project work
+# Compile of tbench.v failed with 1 errors.
+# Compile of CamCap.v was successful.
+# Compile of top.v was successful.
+# Compile of pll.v was successful.
+# Compile of pll_0002.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of tbench.v failed with 1 errors.
+# Compile of CamCap.v was successful.
+# Compile of top.v was successful.
+# Compile of pll.v was successful.
+# Compile of pll_0002.v was successful.
+# 5 compiles, 1 failed with 1 error.

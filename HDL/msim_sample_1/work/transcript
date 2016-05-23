@@ -1,0 +1,26 @@
+# Reading pref.tcl
+# vsim -gui test_module 
+# Start time: 15:54:32 on Nov 02,2015
+# Loading sv_std.std
+# Loading work.test_module
+# Loading work.mod_top
+# Loading work.mod_a
+# Loading work.mod_b
+add wave -position insertpoint  \
+sim:/test_module/clk \
+sim:/test_module/rst_x \
+sim:/test_module/i_in \
+sim:/test_module/o_out
+# Load canceled
+run
+# ModelSim simulation sample
+run
+run
+run
+run
+# ** Note: $finish    : ../scenario/test_1.v(75)
+#    Time: 410 ps  Iteration: 1  Instance: /test_module
+# 1
+# Break in Module test_module at ../scenario/test_1.v line 75
+# End time: 16:00:58 on Nov 02,2015, Elapsed time: 0:06:26
+# Errors: 1, Warnings: 0

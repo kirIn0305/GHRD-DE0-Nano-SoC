@@ -1,0 +1,41 @@
+/home/vacent/MY_GHRD_FPGA/HDL/RTL/top.v {1 {vlog -work work -stats=none /home/vacent/MY_GHRD_FPGA/HDL/RTL/top.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} /home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll/pll_0002.v {1 {vlog -work work -v /Applications/altera/15.0/quartus/eda/sim_lib/altera_mf.v -stats=none /home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll/pll_0002.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module pll_0002
+-- Scanning library file '/Applications/altera/15.0/quartus/eda/sim_lib/altera_mf.v'
+
+Referenced (but uncompiled) modules or primitives:
+	altera_pll
+
+Top level modules:
+	pll_0002
+
+} {} {}} /home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll.v {1 {vlog -work work -stats=none /home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module pll
+
+Top level modules:
+	pll
+
+} {} {}} /home/vacent/MY_GHRD_FPGA/HDL/RTL/CamCap.v {1 {vlog -work work -stats=none /home/vacent/MY_GHRD_FPGA/HDL/RTL/CamCap.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module camcap
+
+Top level modules:
+	camcap
+
+} {} {}} /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tbench.v {0 {vlog -work work -v /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/clk_common.h -v /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/instance_0.h -stats=none /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tbench.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module tbench
+** Error: /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tbench.v(5): Cannot open `include file "tb/clk_common.h".
+** Error: /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tbench.v(6): Cannot open `include file "tb/instance_0.h".
+** Error: /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tbench.v(12): (vlog-2730) Undefined variable: 'CLK'.
+** Error: /home/vacent/MY_GHRD_FPGA/HDL/TBENCH/SIM2/tb/tbench.v(14): (vlog-2730) Undefined variable: 'CYCLE'.
+
+} {4.0 8.0} {}}

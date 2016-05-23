@@ -1,0 +1,35 @@
+#opens signaltap session
+open_session -name ./stp1.stp
+##start acquisition of instance auto_signaltap_0 and
+##auto_signaltap_1 at the same time
+##calling run_multiple_end will start all instances
+##run after run_multiple_start call
+
+
+#run_multiple_start
+#run -instance auto_signaltap_0 -signal_set "signal_set: 2015/06/11 18:19:57  #0" -trigger "trigger: 2015/06/11 18:19:57  #1" -data_log "log: 2015/06/11 18:23:07  #0" -timeout 5
+#run -instance auto_signaltap_1 -signal_set signal_set_1 -trigger /
+#trigger_1 -data_log log_1 -timeout 5
+#run_multiple_end
+#export_data_log -instance auto_signaltap_0 -signal_set "signal_set: 2015/06/11 18:19:57  #0" -trigger "trigger: 2015/06/11 18:19:57  #1" -data_log "log: 2015/06/11 18:23:07  #0" -filename log.csv -format csv
+
+#for {set i 1} {$i <= 3} {incr i} {
+#run_multiple_start
+#run -instance auto_signaltap_0 -signal_set "signal_set: 2015/06/11 18:19:57  #0" -trigger "trigger: 2015/06/11 18:19:57  #1" -data_log "log: 2015/06/11 18:23:07  #0" -timeout 5
+# run -instance auto_signaltap_1 -signal_set "signal_set: 2015/06/12 07:21:11  #0" -trigger "trigger: 2015/06/12 07:21:11  #1" -data_log "signal_set: 2015/06/12 07:21:11  #0" -timeout 5
+
+#run -instance auto_signaltap_0 -signal_set "signal_set: 2015/11/05 20:21:53  #0" -trigger "trigger: 2015/11/05 20:21:53  #1" -data_log "signal_set: 2015/11/05 20:21:53  #0" 
+
+#run -instance auto_signaltap_0 -signal_set "cap_camera_0" -trigger "start_trigger_0" -data_log "log_1" 
+run -instance auto_signaltap_0 -signal_set "cap_camera_0" -trigger "start_trigger_0" -data_log $LOG_NAME 
+
+#run_multiple_end
+#export_data_log -clock_period 20 -instance auto_signaltap_0 -signal_set "signal_set: 2015/06/11 18:19:57  #0" -trigger "trigger: 2015/06/11 18:19:57  #1" -data_log "log: 2015/06/11 18:23:07  #0" -filename log_$i.csv -format csv
+
+#export_data_log -clock_period 20 -instance auto_signaltap_0 -signal_set "signal_set: 2015/11/05 20:21:53  #0" -trigger "trigger: 2015/11/05 20:21:53  #1" -data_log "signal_set: 2015/11/05 20:21:53  #0" -filename log.csv -format csv
+#export_data_log -clock_period 20 -instance auto_signaltap_0 -signal_set "signal_set: 2015/11/05 20:21:53  #0" -trigger "trigger: 2015/11/05 20:21:53  #1" -data_log "signal_set: 2015/11/05 20:21:53  #0" -filename log.csv -format csv
+export_data_log -clock_period 20 -instance "auto_signaltap_0" -signal_set "cap_camera_0" -trigger "start_trigger_0" -data_log $LOG_NAME -filename "./stp_log/tmp.csv" -format csv
+#}
+
+##close signaltap session
+close_session

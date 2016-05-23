@@ -1,0 +1,91 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/vacent/MY_GHRD_FPGA/HDL/TBENCH
+vcamcap
+Z1 !s110 1447084029
+!i10b 1
+!s100 eB80n1i8DViY323CVA3_@2
+Ickj4:<K9<;m4b_SE3I7:H1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1447069191
+8/home/vacent/MY_GHRD_FPGA/HDL/RTL/CamCap.v
+F/home/vacent/MY_GHRD_FPGA/HDL/RTL/CamCap.v
+Z4 L0 15
+Z5 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1447084029.899623
+!s107 /home/vacent/MY_GHRD_FPGA/HDL/RTL/CamCap.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/vacent/MY_GHRD_FPGA/HDL/RTL/CamCap.v|
+!i113 1
+Z6 o-work work
+vpll
+Z7 !s110 1447084030
+!i10b 1
+!s100 laYfkLkKRPZ:odgMll_CS3
+IVU=SAM;D5UKY5aQH7GHWc0
+R2
+R0
+R3
+8/home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll.v
+F/home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll.v
+L0 8
+R5
+r1
+!s85 0
+31
+!s108 1447084030.037913
+!s107 /home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll.v|
+!i113 1
+R6
+vpll_0002
+R7
+!i10b 1
+!s100 9YjmbXYZ:?6k4<QH[kk=z3
+I=Yc2OSCP[:Zi0<QWm>nIM0
+R2
+R0
+R3
+8/home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll/pll_0002.v
+F/home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll/pll_0002.v
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1447084030.106884
+!s107 /home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll/pll_0002.v|
+!s90 -reportprogress|300|-work|work|-v|/Applications/altera/15.0/quartus/eda/sim_lib/altera_mf.v|-stats=none|/home/vacent/MY_GHRD_FPGA/HDL/RTL/ALTERA_IP/pll/pll_0002.v|
+!i113 1
+R6
+!s92 -work work -v /Applications/altera/15.0/quartus/eda/sim_lib/altera_mf.v
+vtop
+R1
+!i10b 1
+!s100 R8B]ko]kQj>Jo;ho8dzze0
+IMmUYDJ;:bF9?U@]Z<YTbh2
+R2
+R0
+R3
+8/home/vacent/MY_GHRD_FPGA/HDL/RTL/top.v
+F/home/vacent/MY_GHRD_FPGA/HDL/RTL/top.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1447084029.959692
+!s107 /home/vacent/MY_GHRD_FPGA/HDL/RTL/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/vacent/MY_GHRD_FPGA/HDL/RTL/top.v|
+!i113 1
+R6

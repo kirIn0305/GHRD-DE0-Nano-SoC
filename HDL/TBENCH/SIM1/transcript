@@ -1,0 +1,10 @@
+# Reading pref.tcl
+# vsim -gui test_module -L /Applications/altera/15.0/modelsim_ase/altera/verilog/altera_mf 
+# Start time: 20:38:30 on Nov 09,2015
+# Loading sv_std.std
+# Loading work.test_module
+# Loading work.mod_top
+# Loading work.mod_a
+# Loading work.mod_b
+# End time: 20:38:52 on Nov 09,2015, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
